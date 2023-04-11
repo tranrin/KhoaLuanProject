@@ -41,7 +41,6 @@ export default function ProductsPage() {
             <ProductSort />
           </Stack>
         </Stack>
-
         <ProductList products={PRODUCTS} />
         <ProductCartWidget />
       </Container>

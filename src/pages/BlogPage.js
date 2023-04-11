@@ -29,7 +29,7 @@ export default function BlogPage() {
           <Typography variant="h4" gutterBottom>
             Blog
           </Typography>
-          <Button variant="contained" startIcon={<Iconify icon="eva:plus-fill" />}>
+          <Button variant="contained" href='/dashboard/addblog' startIcon={<Iconify icon="eva:plus-fill" />}>
             New Post
           </Button>
         </Stack>
